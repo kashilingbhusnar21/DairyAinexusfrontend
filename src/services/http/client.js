@@ -1,6 +1,7 @@
 import axios from 'axios';
 
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
+console.log("API URL:", API_BASE_URL);
 const TOKEN_KEY = "token";
 
 // Safety check (important)
